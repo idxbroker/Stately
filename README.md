@@ -1,0 +1,2 @@
+# Stately
+Satetly Child Theme
