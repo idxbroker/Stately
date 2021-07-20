@@ -1,0 +1,195 @@
+/*! =Header
+------------------------------------------------------------------------- */
+header.site-header {
+	position: relative;
+	color: $body-font-color;
+	background: $body-bg;
+	width: 100%;
+}
+header.site-header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+header.site-header .title-area {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	text-align: center;
+}
+body.sticky .sticky-header header.site-header .title-area {
+	padding: 0.7rem 0;
+}
+header.site-header .site-title {
+	font-family: $header-font-family;
+	font-size: rem-calc(40);
+	line-height: 1;
+	letter-spacing: -1px;
+	margin: 0;
+}
+header.site-header .site-title img {
+	max-height: 80px;
+}
+header .site-title a,
+header .site-title a:hover {
+	color: $body-font-color;
+}
+header .site-title a:focus {
+	color: $secondary-color;
+}
+
+header.site-header .site-description {
+	display: none;
+	color: $body-font-color;
+	font-family: $body-font-family;
+	font-size: rem-calc(14);
+	font-weight: $body-font-weight;
+	margin: 0;
+	line-height: 1.6;
+}
+@media #{$large-up} {
+	header.site-header {
+		padding-left: $column-gutter / 2;
+		padding-right: $column-gutter / 2;
+	}
+}
+
+/*! =Sticky Header
+------------------------------------------------------------------------- */
+body.sticky .sticky-header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.sticky-header header.site-header {
+	background: rgba($body-bg, 0.85);
+}
+body .sticky-header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	border-bottom: 1px solid $body-bg;
+	box-shadow: 0px 7px 7px rgba(0,0,0,0.2);
+}
+body.admin-bar .sticky-header {
+	top: 46px;
+}
+@media #{$medium-up} {
+	body.admin-bar .sticky-header {
+		top: 32px;
+	}
+}
+body.sticky .sticky-header header.site-header .site-title {
+	font-size: rem-calc(30);
+}
+body.sticky .sticky-header header.site-header .site-description {
+	font-size: rem-calc(12)
+}
+body.sticky header.site-header .site-title img {
+	max-height: 70px;
+}
+.sticky-header,
+.top-header,
+.title-area *,
+nav *,
+.off-canvas-toggle {
+	@include single-transition(all, 400ms, ease-in-out);
+}
+body.sticky .sticky-header {
+	z-index: 10000;
+}
+@media #{$large-up} {
+	header.site-header .site-title {
+		margin-bottom: 0;
+	}
+	header.site-header .title-area {
+		text-align: left;
+	}
+	header.site-header .widget-area {
+		text-align: right;
+	}
+}
+
+/*! =Off Canvas
+------------------------------------------------------------------------- */
+.off-canvas.widget-area {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+.off-canvas .widget {
+	margin-bottom: 2rem;
+}
+.off-canvas .widget a {
+	color: $secondary-color;
+}
+.off-canvas .widget span,
+.off-canvas .widget p,
+.off-canvas .widget label,
+.off-canvas .widget li,
+.off-canvas .agent-phone-wrap i,
+.off-canvas .agent-email-wrap i,
+.off-canvas .agent-address i {
+	font-size: rem-calc(14);
+	color: $body-font-color;
+}
+.off-canvas .widget .idx-omnibar-form button span {
+	font-size: rem-calc(24);
+}
+a.off-canvas-toggle {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: rem-calc(20);
+	background: $primary-color;
+	color: $body-font-color;
+	padding: 0.84rem 0.6rem;
+	min-height: 55px;
+}
+a.off-canvas-toggle,
+a.off-canvas-toggle:focus,
+a.off-canvas-toggle:hover,
+a.exit-off-canvas,
+a.exit-off-canvas:hover,
+a.exit-off-canvas:focus,
+body.stately-light a.off-canvas-toggle,
+body.stately-light a.off-canvas-toggle:focus,
+body.stately-light a.off-canvas-toggle:hover,
+body.stately-light a.exit-off-canvas,
+body.stately-light a.exit-off-canvas:hover,
+body.stately-light a.exit-off-canvas:focus {
+	color: $body-font-color;
+}
+body.stately-light a.off-canvas-toggle:focus,
+body.stately-light a.exit-off-canvas:focus {
+	font-weight: bold;
+}
+body.sticky .sticky-header a.off-canvas-toggle {
+	padding: 0.48rem 0.6rem;
+}
+a.off-canvas-toggle:before {
+	font-family: "Font Awesome\ 5 Free";
+	content: "\f002";
+	font-weight: 900;
+	width: 1rem;
+    height: 1rem;
+}
+.off-canvas-wrap.move-left a.off-canvas-toggle:before {
+	content: "\f00d";
+}
+.off-canvas form div.awesomplete > ul > li {
+	color: $body-font-color-secondary;
+}
+
+@media #{$medium-up} {
+	body.top-bar-enabled a.off-canvas-toggle {
+		top: 30px;
+	}
+	a.off-canvas-toggle {
+		font-size: rem-calc(24);
+	}
+}
+@media #{$large-up} {
+
+}

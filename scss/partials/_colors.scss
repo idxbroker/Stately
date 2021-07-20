@@ -1,0 +1,190 @@
+$body-bg: #fff;
+$body-bg-alt: invert($body-bg);
+$body-font-color: #383636;
+$body-font-color-secondary: #fff;
+$anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-secondary-color-hover: scale-color($secondary-color, $lightness: -14%);
+body.stately-light,
+body.stately-white-bkg {
+	background: $body-bg;
+}
+body.stately-light,
+body.stately-light header.site-header,
+body.stately-light .content-sidebar-wrap,
+body.stately-light.home .content-sidebar-wrap.row .home-top,
+body.stately-light.home .content-sidebar-wrap.row div[class*='home-middle-'],
+body.stately-light footer.site-footer,
+body.stately-light .nav-header-right > ul,
+body.stately-white-bkg .content-sidebar-wrap {
+	background-color: $body-bg;
+}
+body.stately-light,
+body.stately-light header .site-title a,
+body.stately-light header .site-title a:hover,
+body.stately-light .equity-nav-menu a,
+body.stately-light .equity-nav-menu a:focus,
+body.stately-light .equity-nav-menu a:hover,
+body.stately-light .equity-nav-menu .current-menu-item > a,
+body.stately-light .equity-nav-menu .sub-menu a,
+body.stately-light .equity-nav-menu .sub-menu a:hover,
+body.stately-light .equity-nav-menu .sub-menu a:focus,
+body.stately-light .menu-toggle,
+body.stately-light h1,
+body.stately-light h2,
+body.stately-light h3,
+body.stately-light h4,
+body.stately-light h5,
+body.stately-light h6,
+body.stately-light .sidebar-primary h4.widget-title,
+body.stately-light.home .widget h2,
+body.stately-light.home .widget h3,
+body.stately-light.home .widget h4,
+body.stately-light.home .widget h5,
+body.stately-light.home .widget h6,
+body.stately-light footer.site-footer .footer-widgets .widget-title,
+body.stately-light .off-canvas .widget .widget-title,
+body.stately-light .off-canvas .widget span,
+body.stately-light .off-canvas .widget p,
+body.stately-light .off-canvas .widget label,
+body.stately-light .off-canvas .widget li,
+body.stately-light .off-canvas .agent-phone-wrap i,
+body.stately-light .off-canvas .agent-email-wrap i,
+body.stately-light .off-canvas .agent-address i,
+body.stately-light.home div[class*='home-middle-'] span,
+body.stately-light.home div[class*='home-middle-'] p,
+body.stately-light.home div[class*='home-middle-'] .agent-social-icons a,
+body.stately-light.home div[class*='home-middle-'] .impress-city-links li,
+body.stately-light.home div[class*='home-middle-'] .impress-city-links li a,
+body.stately-light.home div[class*='home-middle-'] label,
+body.stately-light.home div[class*='home-middle-'] blockquote,
+body.stately-light.home div[class*='home-middle-'] blockquote cite,
+body.stately-light.home div[class*='home-middle-'] li,
+body.stately-light.home div[class*='home-middle-'] .widget.featured-content p.entry-meta a,
+body.stately-light footer.site-footer *,
+body.stately-light footer.site-footer p,
+body.stately-light footer.site-footer a,
+body.stately-light footer.site-footer .footer-widgets .widget p,
+body.stately-light footer.site-footer .footer-widgets .widget li,
+body.stately-light footer.site-footer .footer-widgets .widget .agent-phone-wrap i,
+body.stately-light footer.site-footer .footer-widgets .widget .agent-email-wrap i,
+body.stately-white-bkg,
+body.stately-white-bkg h1,
+body.stately-white-bkg h2,
+body.stately-white-bkg h3,
+body.stately-white-bkg h4,
+body.stately-white-bkg h5,
+body.stately-white-bkg h6,
+body.stately-white-bkg label,
+body.stately-white-bkg blockquote,
+body.stately-white-bkg blockquote p,
+body.stately-white-bkg .sidebar-primary,
+body.stately-white-bkg .sidebar-primary p,
+body.stately-white-bkg .sidebar-primary label,
+body.stately-light.stately-white-bkg .sidebar-primary .property-details ul,
+body.stately-light.stately-white-bkg .sidebar-primary .property-details p,
+body.stately-light.stately-white-bkg .sidebar-primary .hover-cover > p {
+	color: $body-font-color;
+}
+body.stately-light.home div[class*='home-middle-'].bg-primary .widget h4,
+body.stately-light.home div[class*='home-middle-'].bg-primary p,
+body.stately-light.home div[class*='home-middle-'].bg-primary span,
+body.stately-light.home div[class*='home-middle-'].bg-primary blockquote,
+body.stately-light.home div[class*='home-middle-'].bg-primary blockquote cite,
+body.stately-light .ae-iconbox.type-3 i[class*="fa-"],
+body.stately-light .ae-iconbox.type-3 a i[class*="fa-"],
+body.stately-light .sticky-header a.off-canvas-toggle,
+body.stately-light a.button,
+body.stately-light a.button:hover,
+body.stately-light .off-canvas .widget button span,
+body.stately-light.home .home-top .widget h4,
+body.stately-light .owl-carousel .owl-nav button.owl-prev,
+body.stately-light .owl-carousel .owl-nav button.owl-next,
+body.stately-light #IDX-main.IDX-wrapper-standard .IDX-nav a,
+body.stately-light #IDX-main.IDX-wrapper-standard .IDX-nav a:hover,
+body.stately-light #IDX-main.IDX-wrapper-standard .IDX-nav a:focus,
+body.stately-white-bkg .sidebar-primary .property-details ul,
+body.stately-white-bkg .sidebar-primary .property-details p,
+body.stately-white-bkg .sidebar-primary .hover-cover > p {
+	color: $body-font-color-secondary;
+}
+body.stately-light.home .bg-primary a,
+body.stately-light.home div[class*='home-middle-'] .easy-t-cycle-controls span.cycle-pager-active {
+	color: $secondary-color;
+}
+body.stately-light.home .bg-primary a:hover,
+body.stately-light.home .bg-primary a:focus,
+body.stately-light.home div[class*='home-middle-'] .easy-t-cycle-controls span.cycle-pager-active:hover,
+body.stately-light.home div[class*='home-middle-'] .easy-t-cycle-controls span.cycle-pager-active:focus {
+	color: $anchor-font-secondary-color-hover;
+}
+body.stately-light .equity-nav-menu > li.menu-item-has-children a:after,
+body.stately-light .nav-header-right ul>li.menu-item-has-children a:after {
+	color: rgba($body-font-color, 0.6);
+}
+
+/* Background colors */
+body.stately-light.home .content-sidebar-wrap.row div[class*='home-middle-'].bg-primary {
+	background-color: $primary-color;
+}
+body.stately-light .nav-header-right .menu-item a:focus,
+body.stately-light .nav-header-right .menu-item a:hover,
+body.stately-light .nav-header-right .sub-menu a:focus,
+body.stately-light .nav-header-right .sub-menu a:hover,
+body.stately-light .nav-header-right .equity-nav-menu .sub-menu a:focus,
+body.stately-light .nav-header-right .equity-nav-menu .sub-menu a:hover {
+	background-color: scale-color($body-bg, $lightness: -8%);
+}
+body.stately-light .bg-alt {
+	background-color: $body-bg-alt;
+}
+body.stately-light .equity-nav-menu .sub-menu a {
+	background-color: rgba($body-bg, 1);
+}
+body.stately-light .home-top .idx-omnibar-form {
+	background-color: rgba($body-bg, 0.4);
+}
+body.stately-light .sticky-header header.site-header {
+	background-color: rgba($body-bg, 0.85);
+}
+body.stately-light .right-off-canvas-menu,
+body.stately-light.sticky .sticky-header {
+	background-color: rgba($body-bg, 0.90);
+}
+body.stately-light .owl-carousel .property-details,
+body.stately-light.home div[class*='home-middle-'] .widget.featured-content article > .entry-header,
+body.stately-light.home div[class*='home-middle-'] .widget.featured-content article > .entry-content,
+body.stately-light.home div[class*='home-middle-'] section.equity-post-carousel article .entry-header {
+	background-color: rgba($body-bg, 0.7);
+}
+body.stately-light.home .content-sidebar-wrap.row div[class*='home-middle-'].bg-image > .overlay {
+	background-color: rgba($body-bg, 0.6);
+}
+body.stately-light .owl-carousel .hover-cover {
+	background-color: rgba($body-bg, 0.3);
+}
+body.stately-light.home div[class*='home-middle-'].transparent,
+body.stately-light.home div[class*='home-middle-'].bg-alt.transparent {
+	background-color: rgba($body-bg, 0.1);
+}
+
+@media #{$large-up} {
+	body.stately-light .nav-header-right ul.menu-header-right > li > a:focus,
+	body.stately-light .nav-header-right ul.menu-header-right > li > a:hover,
+	body.stately-light .nav-header-right > ul.menu-header-right {
+		background: none;
+		background-color: transparent;
+	}
+}
+
+/* Border colors */
+body.stately-light .equity-nav-menu .sub-menu:before {
+	border-bottom-color: rgba($body-bg, 0.90);
+}
+body.stately-light .sticky-header,
+body.stately-light.sticky .sticky-header {
+	border-color: $body-bg;
+}
+body.stately-light.home div[class*='home-middle-'].bg-primary .ae-iconbox.type-3 i,
+body.stately-light.home div[class*='home-middle-'].bg-primary .ae-iconbox.type-3:hover i {
+	border-color: $body-font-color-secondary;
+}

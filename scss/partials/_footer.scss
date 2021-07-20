@@ -1,0 +1,88 @@
+/*! =Footer
+------------------------------------------------------------------------- */
+footer.site-footer {
+	background: $body-bg;
+	overflow: hidden;
+}
+footer.site-footer .footer-widgets {
+	padding: 2.5rem 0;
+	border-bottom: 1px solid scale-color($body-bg, $lightness: 14%);
+}
+footer.site-footer .columns {
+	margin-bottom: 0.825rem;
+}
+footer.site-footer, 
+footer.site-footer p,
+footer.site-footer a {
+	line-height: 1.2;
+	color: $body-font-color;
+}
+footer.site-footer * {
+	font-size: rem-calc(11);
+}
+
+footer.site-footer a {
+	color: $body-font-color;
+}
+footer.site-footer p {
+	margin: 0;
+}
+footer.site-footer i.properticons {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-left: -5px;
+}
+
+@media #{$medium-up} {
+}
+@media #{$large-up} {
+	footer.site-footer .footer-left {
+		clear: both;
+		text-align: left;
+	}
+	footer.site-footer .footer-right {
+		text-align: right;
+	}
+}
+
+/*! =Footer Widgets
+------------------------------------------------------------------------- */
+footer.site-footer .footer-widgets {
+	overflow: hidden;
+	margin-bottom: 1.2rem;
+}
+
+footer.site-footer .footer-widgets div[class*="footer-widgets-"] {
+	margin-bottom: 15px;
+}
+footer.site-footer .footer-widgets *,
+footer.site-footer .footer-widgets .widget p,
+footer.site-footer .footer-widgets .widget li,
+footer.site-footer .footer-widgets .widget .agent-phone-wrap i,
+footer.site-footer .footer-widgets .widget .agent-email-wrap i {
+	font-size: rem-calc(16);
+	line-height: 1.6;
+	color: $body-font-color;
+}
+footer.site-footer .footer-widgets .widget a {
+	color: $secondary-color;
+	text-decoration: underline;
+}
+footer.site-footer .footer-widgets .widget a:hover,
+footer.site-footer a:hover {
+	color: scale-color($secondary-color, $lightness: -14%);
+}
+footer.site-footer .footer-widgets ul,
+footer.site-footer .footer-widgets ol {
+	margin: 0 0 0 20px;
+}
+footer.site-footer .footer-widgets li {
+	text-align: left;
+}
+footer.site-footer .footer-widgets .widget-title { 
+	font-size: rem-calc(24);
+	margin-bottom: 1.325rem;
+	color: $body-font-color;
+}
+

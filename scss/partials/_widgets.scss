@@ -1,0 +1,836 @@
+/*! Flexible Widgets
+--------------------------------------------- */
+
+.flexible-widgets.widget-fourths .widget,
+.flexible-widgets.widget-halves .widget,
+.flexible-widgets.widget-thirds .widget {
+    float: none;
+    width: 100%;
+}
+
+.flexible-widgets .widget {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media #{$medium-up} {
+	.flexible-widgets.widget-area:not(.widget-full) .widget {
+	    float: left;
+	    padding-left: rem-calc(30);
+	    padding-right: rem-calc(30);
+	    margin-bottom: 0;
+	}
+
+	.flexible-widgets.widget-full .widget,
+	.flexible-widgets.widget-halves.uneven .widget:last-of-type {
+	    float: none;
+	    width: 100%;
+	}
+
+	.flexible-widgets.widget-fourths .widget {
+	    width: 25%;
+	}
+
+	.flexible-widgets.widget-halves .widget {
+	    width: 50%;
+	}
+
+	.flexible-widgets.widget-thirds .widget {
+	    width: 33.33%;
+	}
+
+	.flexible-widgets.widget-halves .widget:nth-child(odd),
+	.flexible-widgets.widget-thirds .widget:nth-child(3n+1),
+	.flexible-widgets.widget-fourths .widget:nth-child(4n+1) {
+	    clear: left;
+	}
+}
+
+/*! =Equity Widgets 
+------------------------------------------------------------------------- */
+
+/*! =Custom Menu with Icon and Description
+------------------------------------------------------------------------- */
+.widget_nav_menu_desc ul {
+	list-style-type: none;
+	margin: 0;
+}
+.widget_nav_menu_desc ul li {
+	list-style-type: none;
+	line-height: 1;
+	margin: 0 0 1.25rem;
+}
+.widget_nav_menu_desc ul li:before {
+	content: "";
+}
+.widget_nav_menu_desc i {
+	font-size: rem-calc(24);
+	vertical-align: top;
+	margin: 0 0.5rem 0.5rem 0;
+}
+.widget_nav_menu_desc .link-text {
+	font-size: rem-calc(20);
+	display: inline-block;
+}
+.widget_nav_menu_desc .link-text .link-title {
+	display: block;
+	margin: 0 0 0.325rem;
+}
+.widget_nav_menu_desc .link-text p.description {
+	font-size: rem-calc(14);
+	margin: 0;
+}
+
+
+/*! =Featured Page/Posts
+------------------------------------------------------------------------- */
+.featured-page,
+.featured-post {
+
+}
+.featured-page figure {
+	margin: 0;
+}
+.featured-page article,
+.featured-post article {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+}
+
+.featured-page article .entry-header,
+.featured-post article .entry-header {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0.75rem 1rem;
+	background-color: rgba($body-bg, 0.7);
+}
+.featured-page h2,
+.featured-post h2 {
+	font-size: rem-calc(20);
+	line-height: 1.1;
+	margin: 0;
+}
+.featured-page p.entry-meta *,
+.featured-post p.entry-meta * {
+	font-size: rem-calc(13);
+	margin: 0;
+}
+.featured-post p.entry-meta a {
+	color: $body-font-color-secondary;
+	text-decoration: underline;
+}
+.featured-page img,
+.featured-post img {
+	border: 1px solid scale-color($body-font-color, $lightness: -14%);
+	width: 100%;
+}
+.featured-page .more-link,
+.featured-post .more-link {
+}
+
+
+/*! =Featured Post Carousel
+------------------------------------------------------------------------- */
+.equity-post-carousel {
+
+}
+section.equity-post-carousel article {
+	margin-bottom: 0;
+}
+section.equity-post-carousel article .entry-header,
+section.equity-post-carousel article .entry-content {
+	margin-bottom: 0;
+	display: block;
+	width: 100%;
+	position: relative;
+	color: $body-font-color;
+}
+.equity-post-carousel h2.entry-title {
+	font-size: rem-calc(22);
+	color: $secondary-color;
+}
+.equity-post-carousel img {
+	border: 1px solid #cacaca;
+}
+.equity-post-carousel .owl-item .page-wrap {
+	margin: 0 10px;
+	position: relative;
+}
+.equity-post-carousel .owl-nav {
+	text-align: center;
+	margin-top: 10px;
+}
+.equity-post-carousel .owl-nav i {
+	font-size: 24px;
+	display: block;
+}
+.equity-post-carousel .owl-nav span {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.equity-post-carousel .owl-carousel .owl-nav button.owl-prev,
+.equity-post-carousel .owl-carousel .owl-nav button.owl-next {
+	background: $primary-color;
+	color: $body-font-color;
+	padding: 10px;
+	border-radius: 45px;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin: 10px;
+}
+.equity-post-carousel .owl-dots,
+.equity-post-carousel .owl-nav span {
+	display: none;
+}
+
+
+/*! =Listing Search (WP Listings)
+------------------------------------------------------------------------- */
+.wp-listings-search button {
+	margin: auto;
+	display: block;
+}
+.wp-listings-search button i {
+	font-size: rem-calc(24);
+	margin-right: 8px;
+}
+
+
+/*! =Listing Scroller (WP Listings)
+------------------------------------------------------------------------- */
+.listings-scroller {
+
+}
+.listings-scroller .owl-item .listing {
+	margin: 0 10px;
+}
+.listings-scroller img {
+	border: 1px solid #cacaca;
+}
+.listings-scroller .owl-controls {
+	text-align: center;
+	margin-top: 10px;
+}
+.listings-scroller .owl-controls i {
+	font-size: 24px;
+	display: block;
+}
+.listings-scroller .owl-controls span {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.listings-scroller .owl-controls .owl-prev,
+.listings-scroller .owl-controls .owl-next {
+	background: #f3f3f3;
+	color: #9a9a9a;
+	padding: 10px;
+	border-radius: 45px;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin: 10px;
+}
+.listings-scroller .owl-controls span {
+	display: none;
+}
+
+
+/*! =IDX Carousel
+------------------------------------------------------------------------- */
+.equity-idx-carousel,
+.impress-carousel {
+	position: relative;
+}
+.equity-idx-carousel.owl-carousel .owl-item .carousel-property,
+.impress-carousel .owl-item .carousel-property {
+	margin: 0 10px;
+	overflow: hidden;
+}
+.equity-idx-carousel.owl-carousel .owl-item .carousel-photo,
+.equity-idx-carousel.owl-carousel .owl-item .carousel-photo img,
+.impress-carousel .owl-item .carousel-photo,
+.impress-carousel .owl-item .carousel-photo img {
+	position: relative;
+	display: block;
+	@include single-transition(all);
+}
+.equity-idx-carousel.owl-carousel .owl-item .carousel-photo img,
+.impress-carousel .owl-item .carousel-photo img {
+	margin-bottom: 10px;
+	width: 100%;
+	opacity: 1;
+}
+.equity-idx-carousel .property-details,
+.impress-carousel .property-details {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0.32rem 0.64rem;
+	color: $body-font-color;
+	background-color: rgba($body-bg, 0.7);
+}
+.equity-idx-carousel a,
+.impress-carousel a {
+	text-decoration: none;
+	color: $body-font-color;
+}
+.equity-idx-carousel p,
+.impress-carousel p {
+	margin: 0;
+	color: $body-font-color;
+}
+.equity-idx-carousel ul.beds-baths-sqft,
+.impress-carousel ul.beds-baths-sqft {
+	float: right;
+	text-align: right;
+	list-style-type: none;
+	padding: 0.225rem 0;
+	margin: 0;
+}
+.equity-idx-carousel ul.beds-baths-sqft li,
+.impress-carousel ul.beds-baths-sqft li {
+	display: inline-block;
+	margin-left: 1rem;
+}
+.equity-idx-carousel ul.beds-baths-sqft li span.label,
+.impress-carousel ul.beds-baths-sqft li span.label {
+	display: none;
+}
+.equity-idx-carousel ul.beds-baths-sqft li.sqft span.label,
+.equity-idx-carousel ul.beds-baths-sqft li.acres span.label,
+.impress-carousel ul.beds-baths-sqft li.sqft span.label,
+.impress-carousel ul.beds-baths-sqft li.acres span.label {
+	display: inline-block;
+}
+.equity-idx-carousel .property-details span.price,
+.impress-carousel .property-details span.price {
+	font-family: $header-font-family;
+	font-size: rem-calc(18);
+	color: $secondary-color;
+	margin-bottom: 0.225rem;
+}
+.equity-idx-carousel p.address,
+.impress-carousel p.address {
+	display: none;
+}
+.equity-idx-carousel ul.beds-baths-sqft li:before,
+.impress-carousel ul.beds-baths-sqft li:before {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	margin-right: 0.32rem;
+}
+.equity-idx-carousel ul.beds-baths-sqft li.beds:before,
+.impress-carousel ul.beds-baths-sqft li.beds:before {
+	content: "\f236";
+}
+.equity-idx-carousel ul.beds-baths-sqft li.baths:before,
+.impress-carousel ul.beds-baths-sqft li.baths:before {
+	content: "\f2cc";
+}
+.equity-idx-carousel .owl-dots,
+.impress-carousel .owl-dots {
+	display: none;
+}
+.equity-idx-carousel .owl-nav,
+.impress-carousel .owl-nav {
+	text-align: center;
+}
+.equity-idx-carousel .owl-nav i,
+.impress-carousel .owl-nav i {
+	font-size: 24px;
+	display: block;
+	color: #fff;
+}
+.equity-idx-carousel .owl-nav .fa-caret-right,
+.impress-carousel .owl-nav .fa-caret-right {
+	margin-left: 3px;
+}
+.equity-idx-carousel .owl-nav .fa-caret-left,
+.impress-carousel .owl-nav .fa-caret-left {
+	margin-right: 3px;
+}
+.equity-idx-carousel .owl-nav span,
+.impress-carousel .owl-nav span {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.widget .equity-idx-carousel .owl-nav.owl-controls button.owl-prev,
+.widget .equity-idx-carousel .owl-nav.owl-controls button.owl-next,
+.widget .impress-carousel .owl-nav.owl-controls button.owl-prev,
+.widget .impress-carousel .owl-nav.owl-controls button.owl-next {
+	background: $primary-color;
+	color: $body-font-color;
+	padding: 10px;
+	border-radius: 45px;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin: 10px;
+	float: none !important;
+}
+.equity-idx-carousel .owl-nav.owl-controls button.owl-prev:hover,
+.equity-idx-carousel .owl-nav.owl-controls button.owl-next:hover,
+.impress-carousel .owl-nav.owl-controls button.owl-prev:hover,
+.impress-carousel .owl-nav.owl-controls button.owl-next:hover {
+	background: scale-color($primary-color, $lightness: -14%);
+}
+.equity-idx-carousel .owl-nav span,
+.impress-carousel .owl-nav span {
+	display: none;
+}
+.equity-idx-carousel .hover-cover p i,
+.impress-carousel .hover-cover p i {
+	visibility: hidden;
+}
+.equity-idx-carousel .hover-cover,
+.impress-carousel .hover-cover {
+	visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: $body-font-color-secondary;
+	background-color: rgba($body-bg, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.widget div[class*='carousel-property'] .hover-cover > p {
+	font-size: rem-calc(16);
+	font-weight: $font-weight-bold;
+}
+.equity-idx-carousel a:hover .hover-cover,
+.equity-idx-carousel a:hover .hover-cover p,
+.equity-idx-carousel a:hover .hover-cover p i,
+.impress-carousel a:hover .hover-cover,
+.impress-carousel a:hover .hover-cover p,
+.impress-carousel a:hover .hover-cover p i {
+	visibility: visible;
+}
+.equity-idx-carousel .hover-cover i,
+.impress-carousel a:hover .hover-cover, {
+	font-size: rem-calc(32);
+}
+.equity-idx-carousel .disclaimer p img,
+.impress-carousel .disclaimer p img {
+    border: none;
+	width: auto;
+	margin: 0 auto;
+}
+@media #{$large-up} {
+	.equity-idx-carousel .property-details span.price,
+	.impress-carousel .property-details span.price {
+		font-size: rem-calc(24);
+		text-align: left;
+		float: left;
+	}
+}
+
+/*! =Featured Listing Widget + Listings Scroller Widget
+------------------------------------------------------------ */
+
+.widget .listing-wrap {
+	margin: 0 0 25px;
+	width: 100%;
+	text-align: left;
+}
+
+.widget .listing-widget-thumb {
+	position: relative;
+	overflow: hidden;
+	line-height: 0px;
+}
+
+.widget .listing-widget-thumb img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	border: none;
+}
+
+.widget .listing-widget-thumb a {
+	padding: 0;
+	border: none;
+	text-decoration: none;
+}
+
+.widget .listing-widget-thumb a img {
+	max-width: 100%;
+	max-height: none;
+}
+
+.widget .listing-wrap span.listing-status,
+.widget .listing-wrap .listing-thumb-meta {
+	position: absolute;
+}
+
+.widget .listing-wrap span.listing-status {
+	width: 130px;
+	padding: 5px;
+	top: 20px;
+	right: -28px;
+	font-size: 12px;
+	line-height: 18px;
+	-moz-transform: scale(1) rotate(45deg) translate(0px);
+	-webkit-transform: scale(1) rotate(45deg) translate(0px);
+	-o-transform: scale(1) rotate(45deg) translate(0px);
+	transform: scale(1) rotate(45deg) translate(0px);
+}
+
+.widget .listing-wrap .listing-thumb-meta {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.widget .listing-wrap .listing-thumb-meta span {
+	color: $primary-color;
+	font-family: $header-font-family;
+	font-size: rem-calc(24);
+	top: 0;
+	left: 0;
+	padding: 12px 10px;
+	background: #fff;
+	background: rgba(255,255,255,0.80);
+	line-height: 1;
+	display: table;
+}
+
+.widget .listing-wrap .listing-thumb-meta span.listing-property-type {
+	display: none;
+}
+
+.widget .listing-wrap .listing-thumb-meta span.listing-price {
+}
+
+.widget .listing-wrap span.listing-open-house {
+	display: block;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #be1d2c;
+}
+
+.widget .listing-widget-details {
+}
+
+.widget .listing-widget-details h3.listing-title {
+}
+
+.widget .listing-widget-details h3.listing-title a {
+}
+
+.widget .listing-widget-details p.listing-address {
+	line-height: 1.4;
+	margin-bottom: 0;
+}
+
+.widget .listing-widget-details span.listing-address,
+.widget .listing-widget-details span.listing-city-state-zip {
+}
+
+.widget .listing-widget-details .listing-beds-baths-sqft {
+	width: 100%;
+	padding: 0;
+	margin: 10px 0 0;
+	font-size: rem-calc(14);
+}
+
+.widget .listing-widget-details .listing-beds-baths-sqft li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.widget .listing-widget-details .listing-beds-baths-sqft li span {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.widget .listing-wrap .more-link {
+	display: none;
+}
+
+
+/*! =Listing overlays (for WP Listings - Featured Listing widget)
+------------------------------------------------------------ */
+
+.widget .listing-wrap span.listing-status {
+	color: #fff;
+	background: #53c331;
+	background: rgba(83, 195, 49, 0.80);
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.widget .listing-wrap span.listing-status.active {
+	background: #53c331;
+	background: rgba(83, 195, 49, 0.80);
+}
+.widget .listing-wrap span.listing-status.sold {
+	background: #be1d2c;
+	background: rgba(190, 29, 44, 0.80);
+}
+.widget .listing-wrap span.listing-status.pending {
+	background: #db8323;
+	background: rgba(219, 131, 35, 0.80);
+}
+.widget .listing-wrap span.listing-status.new,
+.widget .listing-wrap span.listing-status.reduced,
+.widget .listing-wrap span.listing-status.for-rent {
+	background: #24a4ea;
+	background: rgba(36, 164, 234, 0.80);
+}
+
+
+/*! =Column classes (for WP Listings - Featured Listing widget only)
+------------------------------------------------------------ */
+
+.widget .listing.one-half,
+.widget .listing.one-third,
+.widget .listing.one-fourth,
+.widget .listing.one-fifth,
+.widget .listing.one-sixth {
+	float: left;
+	margin: 0 0 15px 2.564102564102564%;
+	padding: 0;
+}
+
+.widget .listing.one-half {
+	width: 48.717948717948715%;
+}
+
+.widget .listing.one-third {
+	width: 31.623931623931625%;
+}
+
+.widget .listing.one-fourth {
+	width: 23.076923076923077%;
+}
+
+.widget .listing.one-fifth {
+	width: 17.948717948717948%;
+}
+
+.widget .listing.one-sixth {
+	width: 14.52991452991453%;
+}
+
+.widget .listing.first {
+	clear: both;
+	margin-left: 0;
+}
+
+
+/*! =Property Showcase
+------------------------------------------------------------------------- */
+.widget .showcase-property span.price,
+.shortcode .showcase-property span.price {
+	margin: -30px auto 0px;
+	width: auto;
+	padding: 12px 10px;
+	display: inline-block;
+	font-family: $header-font-family;
+	font-size: 20px;
+	line-height: 1;
+	text-align: center;
+	color: $primary-color;
+	background: #fff;
+}
+
+/*! =Responsive (for WP Listings - Featured Listing widget only)
+------------------------------------------------------------ */
+
+@media (max-width: 767px) {
+	.widget .listing.one-half,
+	.widget .listing.one-third,
+	.widget .listing.one-fourth,
+	.widget .listing.one-fifth,
+	.widget .listing.one-sixth {
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 20px;
+	}
+}
+
+/*! =IDX Widgets - Equity
+------------------------------------------------------------------------- */
+
+/*! =Quick search
+------------------------------------------------------------------------- */
+.equity-idx-search-widget {
+	overflow: hidden;
+}
+
+.equity-idx-search-widget .horizontal > .columns.large-9 {
+	padding: 0;
+}
+
+.equity-idx-search-widget .equity-qs-price-min,
+.equity-idx-search-widget .equity-qs-price-max,
+.equity-idx-search-widget .vertical .equity-qs-beds,
+.equity-idx-search-widget .vertical .equity-qs-baths {
+	width: 45%;
+	float: left;
+}
+
+.equity-idx-search-widget .equity-qs-price-max,
+.equity-idx-search-widget .vertical .equity-qs-baths {
+	float: right;
+}
+
+.equity-idx-search-widget .equity-qs-price {
+	display: inline-block;
+	text-align: center;
+	line-height: 2;
+}
+
+.equity-idx-search-widget .equity-qs-links {
+	font-size: 15px;
+}
+
+.equity-idx-search-widget .equity-qs-links .advanced-search,
+.equity-idx-search-widget .equity-qs-links .map-search,
+.equity-idx-search-widget .vertical .advanced-search,
+.equity-idx-search-widget .vertical .map-search {
+	display: block;
+	float: left;
+}
+
+.equity-idx-search-widget .equity-qs-links .map-search,
+.equity-idx-search-widget .vertical .map-search {
+	float: right;
+}
+
+.equity-idx-search-widget .equity-qs-submit-button {
+	display: block;
+	font-size: 20px;
+	margin: 0 auto .67rem;
+}
+
+.equity-idx-search-widget .vertical .equity-qs-submit-button {
+	clear: both;
+}
+
+.equity-idx-search-widget .equity-qs-submit-button .fas {
+	margin: 0 5px 0 0;
+}
+
+
+/*! =Property Showcase
+------------------------------------------------------------------------- */
+.showcase-property,
+.showcase-property p {
+	text-align: center;
+	font-size: 14px;
+}
+.showcase-property p.disclaimer {
+	margin-bottom: 1rem;
+	font-size: 11px;
+}
+.showcase-property .showcase-photo {
+	position: relative;
+	display: block;
+	margin-bottom: 0.4rem;
+}
+.showcase-property img {
+	border: 1px solid #ccc;
+}
+.showcase-property p.disclaimer img {
+	border: none;
+}
+.showcase-property span.price {
+	font-size: 18px;
+	display: block;
+}
+.showcase-property span.street {
+	display: block;
+}
+.showcase-property span.status {
+	display: none;
+}
+.showcase-property .address {
+	margin-bottom: 5px;
+}
+.showcase-property .beds-baths-sqft {
+	margin-bottom: 0.4rem;
+}
+.showcase-property .beds-baths-sqft span {
+	margin: 0 5px;
+}
+.showcase-property .disclaimer p {
+	font-size: 10px;
+	margin: 0;
+}
+.showcase-property .disclaimer p img {
+	border: none;
+}
+
+/*! =IMPress Omnibar
+------------------------------------------------------------------------- */
+.widget .idx-omnibar-form {
+	position: relative;
+	padding: 0;
+}
+.widget .idx-omnibar-form:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.widget .idx-omnibar-form input {
+	border: none;
+	margin: 0;
+}
+.widget .idx-omnibar-form label {
+	color: $body-font-color;
+}
+.widget .idx-omnibar-form .awesomplete {
+	width: 100%;
+}
+.widget .idx-omnibar-form button,
+.widget .idx-omnibar-form.idx-omnibar-extra-form button {
+	width: auto;
+	padding: 0.55rem 0.7rem;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: $paragraph-font-size;
+}
+.widget .idx-omnibar-form button span {
+	display: none;
+}
+
+/*! =IMPress Lead Signup
+------------------------------------------------------------------------- */
+.impress-lead-signup button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/*! =Default Widgets 
+------------------------------------------------------------------------- */
+table#wp-calendar {
+	width: 100%;
+}
+
+.sidebar .widget_nav_menu .label {
+	background: none;
+}
+
+
