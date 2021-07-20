@@ -1,0 +1,74 @@
+/*!
+ * Theme Name: Stately
+ * Theme URI: https://learn.agentevolution.com/kb/stately/
+ * Author: Agent Evolution
+ * Author URI: http://www.agentevolution.com/
+ * Description: A Responsive Real Estate Child Theme with IDX home search for the real estate professional.
+ * Version: 1.0.10
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.htm
+ * Text Domain: stately
+ * Domain Path: /languages/
+ * Tags: black, white, black, green, blue, red, purple, aqua, responsive-layout, left-sidebar, right-sidebar, custom-menu, editor-style, featured-images, microformats, translation-ready
+ * Template: equity
+ */
+
+/*! =Defaults (Foundation Functions and Variables)
+------------------------------------------------------------------------- */
+@import "normalize";
+@import "stately_settings";
+
+/*! =Grid (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/grid";
+
+/*! =Clearing (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/clearing";
+
+/*!=Typography (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/type";
+
+/*! =Buttons (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/buttons";
+
+/*! =Alert Boxes (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/alert-boxes";
+
+/*! =Flex Video (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/flex-video";
+
+/*! =Forms (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/forms";
+
+/*! =Tables (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/tables";
+
+/*! =Off Canvas Menu (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/offcanvas";
+
+/*! =Pagination (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/pagination";
+
+// Partials (Child)
+@import "partials/global";
+@import "partials/general";
+@import "partials/header";
+@import "partials/menu";
+@import "partials/footer";
+@import "partials/sidebar";
+@import "partials/widgets";
+@import "partials/home";
+@import "partials/post";
+@import "partials/comments";
+@import "partials/shortcodes";
+@import "partials/colors";
+@import "partials/idx";
