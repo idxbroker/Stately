@@ -1,0 +1,14 @@
+{
+  "name": "stately-libsass-template",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-wp-i18n": "^1.0.0",
+    "node-sass": "^4.5.0",
+    "grunt-wp-css": "^0.1.0",
+    "grunt-css-purge": "^1.0.2",
+    "grunt-uncss": "^0.8.0"
+  }
+}
