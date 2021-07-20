@@ -1,0 +1,505 @@
+# Copyright (C) 2019 Agent Evolution
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stately 1.0.10\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2019-11-15 16:48:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#. Theme Name of the plugin/theme
+msgid "Stately"
+msgstr ""
+
+#: functions.php:24
+msgid "Header Right"
+msgstr ""
+
+#: functions.php:171
+msgid "<i class=\\\"fas fa-caret-left\\\"></i><span>Prev</span>"
+msgstr ""
+
+#: functions.php:178
+msgid "<i class=\\\"fas fa-caret-right\\\"></i><span>Next</span>"
+msgstr ""
+
+#: functions.php:216
+msgid "Home Top"
+msgstr ""
+
+#: functions.php:217
+msgid ""
+"This is the top section of the Home page. Not all widgets are designed to "
+"work here. Recommended to use IMPress Omnibar Search widget."
+msgstr ""
+
+#: functions.php:227
+msgid "Home Middle %d"
+msgstr ""
+
+#: functions.php:228
+msgid "This is the Home Middle %d widget area."
+msgstr ""
+
+#: functions.php:237
+msgid "Off Canvas Search"
+msgstr ""
+
+#: functions.php:238
+msgid "This is the Off Canvas widget area."
+msgstr ""
+
+#: lib/class-stately-customizer.php:45
+msgid "Site Title Font Size"
+msgstr ""
+
+#: lib/class-stately-customizer.php:63
+msgid "Main Menu Font Size"
+msgstr ""
+
+#: lib/class-stately-customizer.php:80
+msgid "Main Menu Item Padding"
+msgstr ""
+
+#: lib/class-stately-customizer.php:99
+msgid "Custom Colors"
+msgstr ""
+
+#: lib/class-stately-customizer.php:129
+msgid "Primary Color"
+msgstr ""
+
+#: lib/class-stately-customizer.php:130
+msgid "Used for links, buttons, headings."
+msgstr ""
+
+#: lib/class-stately-customizer.php:144
+msgid "Secondary Color"
+msgstr ""
+
+#: lib/class-stately-customizer.php:145
+msgid "Used for accents."
+msgstr ""
+
+#: lib/class-stately-customizer.php:159
+msgid "Use a light color scheme?"
+msgstr ""
+
+#: lib/class-stately-customizer.php:174
+msgid "Use a white background on the content area?"
+msgstr ""
+
+#: lib/class-stately-customizer.php:190
+msgid "Home Page"
+msgstr ""
+
+#: lib/class-stately-customizer.php:228
+msgid "Number of home page widget areas."
+msgstr ""
+
+#: lib/class-stately-customizer.php:229
+msgid "Enter the number of widget areas for the home page middle."
+msgstr ""
+
+#: lib/class-stately-customizer.php:249
+msgid "Top Background Image"
+msgstr ""
+
+#: lib/class-stately-customizer.php:250
+msgid ""
+"Upload an image to use for the \"Home Top\" widget area background. This "
+"image will also be used as the default background on interior pages."
+msgstr ""
+
+#: lib/class-stately-customizer.php:265
+msgid "Top background overlay color"
+msgstr ""
+
+#: lib/class-stately-customizer.php:266
+msgid "Adjust the color overlay on home top widget area."
+msgstr ""
+
+#: lib/class-stately-customizer.php:280
+msgid "Top background overlay color opacity."
+msgstr ""
+
+#: lib/class-stately-customizer.php:281
+msgid "Adjust the overlay opacity of the home top widget area background."
+msgstr ""
+
+#: lib/class-stately-customizer.php:301
+msgid "Middle 3 Background Image"
+msgstr ""
+
+#: lib/class-stately-customizer.php:302
+msgid "Upload an image to use for the \"Home Middle 3\" widget area background."
+msgstr ""
+
+#: lib/class-stately-customizer.php:318
+msgid "Middle 3 background overlay color"
+msgstr ""
+
+#: lib/class-stately-customizer.php:319
+msgid "Adjust the color overlay on home middle 3 widget area."
+msgstr ""
+
+#: lib/class-stately-customizer.php:334
+msgid "Middle 3 background overlay color opacity."
+msgstr ""
+
+#: lib/class-stately-customizer.php:335
+msgid "Adjust the overlay opacity of the home middle 3 widget area backgrounds."
+msgstr ""
+
+#: lib/class-stately-customizer.php:356
+msgid "Middle 6 Background Image"
+msgstr ""
+
+#: lib/class-stately-customizer.php:357
+msgid "Upload an image to use for the \"Home Middle 6\" widget area background."
+msgstr ""
+
+#: lib/class-stately-customizer.php:373
+msgid "Middle 6 background overlay color"
+msgstr ""
+
+#: lib/class-stately-customizer.php:374
+msgid "Adjust the color overlay on home middle 6 widget area."
+msgstr ""
+
+#: lib/class-stately-customizer.php:389
+msgid "Middle 6 background overlay color opacity."
+msgstr ""
+
+#: lib/class-stately-customizer.php:390
+msgid "Adjust the overlay opacity of the home middle 6 widget area backgrounds."
+msgstr ""
+
+#: lib/class-stately-customizer.php:411
+msgid "Use fadeup effect on homepage?"
+msgstr ""
+
+#: lib/class-stately-customizer.php:426
+msgid "Use match height on homepage carousel?"
+msgstr ""
+
+#: lib/class-stately-customizer.php:460
+msgid "Show Site Description?"
+msgstr ""
+
+#: lib/class-stately-customizer.php:472
+msgid "Enable Sticky Header?"
+msgstr ""
+
+#: lib/merlin-config.php:31
+msgid "Theme Setup"
+msgstr ""
+
+#: lib/merlin-config.php:32
+msgid "%s%s Themes &lsaquo; Theme Setup: %s%s"
+msgstr ""
+
+#: lib/merlin-config.php:34
+msgid "Return to the dashboard"
+msgstr ""
+
+#: lib/merlin-config.php:36
+msgid "Skip"
+msgstr ""
+
+#: lib/merlin-config.php:37
+msgid "Next"
+msgstr ""
+
+#: lib/merlin-config.php:38
+msgid "Start"
+msgstr ""
+
+#: lib/merlin-config.php:39
+msgid "Cancel"
+msgstr ""
+
+#: lib/merlin-config.php:40 lib/merlin-config.php:41 lib/merlin-config.php:42
+msgid "Install"
+msgstr ""
+
+#: lib/merlin-config.php:43
+msgid "Import"
+msgstr ""
+
+#: lib/merlin-config.php:45
+msgid "Welcome to %s"
+msgstr ""
+
+#: lib/merlin-config.php:46
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: lib/merlin-config.php:47
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: lib/merlin-config.php:48
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: lib/merlin-config.php:50
+msgid "Install Child Theme"
+msgstr ""
+
+#: lib/merlin-config.php:51
+msgid "You're good to go!"
+msgstr ""
+
+#: lib/merlin-config.php:52
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: lib/merlin-config.php:53
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: lib/merlin-config.php:54
+msgid "Learn about child themes"
+msgstr ""
+
+#: lib/merlin-config.php:55
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: lib/merlin-config.php:56
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: lib/merlin-config.php:58 lib/plugins.php:66
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/merlin-config.php:59
+msgid "You're up to speed!"
+msgstr ""
+
+#: lib/merlin-config.php:60
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: lib/merlin-config.php:61
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press "
+"\"Next\" to continue the setup wizard."
+msgstr ""
+
+#: lib/merlin-config.php:62 lib/merlin-config.php:66
+msgid "Advanced"
+msgstr ""
+
+#: lib/merlin-config.php:64
+msgid "Import Content"
+msgstr ""
+
+#: lib/merlin-config.php:65
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: lib/merlin-config.php:68
+msgid "All done. Have fun!"
+msgstr ""
+
+#: lib/merlin-config.php:69
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: lib/merlin-config.php:70
+msgid "Extras"
+msgstr ""
+
+#: lib/merlin-config.php:71
+msgid "View your website"
+msgstr ""
+
+#: lib/merlin-config.php:73
+msgid "Dashboard"
+msgstr ""
+
+#: lib/merlin-config.php:74
+msgid "Get Theme Support"
+msgstr ""
+
+#: lib/merlin-config.php:75
+msgid "Start Customizing"
+msgstr ""
+
+#: lib/metaboxes.php:28
+msgid "Single Post Options"
+msgstr ""
+
+#: lib/metaboxes.php:37
+msgid "Custom Background Image"
+msgstr ""
+
+#: lib/metaboxes.php:38
+msgid "Upload an image to use as the background for this post."
+msgstr ""
+
+#: lib/metaboxes.php:45
+msgid "Disable Background"
+msgstr ""
+
+#: lib/metaboxes.php:46
+msgid "Check to disable the background image on this post."
+msgstr ""
+
+#: lib/plugins.php:63
+msgid ""
+"The following plugins are either recommended or required to get the most "
+"out of your theme."
+msgstr ""
+
+#: lib/plugins.php:65
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/plugins.php:67
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/plugins.php:68
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/plugins.php:69
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:70
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:71
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:72
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:73
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:74
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:75
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:76
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:77
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:78
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins.php:79
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/plugins.php:80
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/plugins.php:81
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://learn.agentevolution.com/kb/stately/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A Responsive Real Estate Child Theme with IDX home search for the real "
+"estate professional."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Agent Evolution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.agentevolution.com/"
+msgstr ""
